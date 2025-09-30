@@ -15,7 +15,7 @@ variable "project_name" {
 variable "ecr_repository_name" {
   description = "The name of the pre-existing ECR repository."
   type        = string
-  default     = "siddhant-strapi"
+  default     = "kartik-strapi"
 }
 
 variable "ec2_key_name" {
