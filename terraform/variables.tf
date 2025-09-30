@@ -23,7 +23,10 @@ variable "ec2_key_name" {
   type        = string
   default     = "strapi-mumbai-key"
 }
-
+variable "strapi_image_tag" {
+  description = "The Docker image tag for the Strapi application."
+  type        = string
+}
 variable "container_cpu" {
   description = "The number of CPU units (e.g., 256 for 0.25 vCPU) to reserve for the container."
   type        = number
