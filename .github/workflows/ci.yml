@@ -12,7 +12,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1                   # Mumbai region
-  ECR_REPOSITORY: siddhant-strapi          # Your ECR repository name
+  ECR_REPOSITORY: kartik-strapi         # Your ECR repository name
 
 jobs:
   build-and-push:
