@@ -41,7 +41,7 @@ jobs:
 
       - name: Terraform Plan
         id: plan
-        # === FIX IS HERE: Add the env block to the 'plan' step ===
+      
         env:
           TF_VAR_app_keys: ${{ secrets.STRAPI_APP_KEYS }}
           TF_VAR_api_token_salt: ${{ secrets.STRAPI_API_TOKEN_SALT }}
